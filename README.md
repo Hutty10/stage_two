@@ -44,3 +44,12 @@
 
 -for documentation check
 [GitHub](https://github.com/Hutty10/stage_two/blob/master/DOCUMENTATION.md)
+
+## Testing
+
+check[GitHub](https://github.com/Hutty10/stage_two/blob/master/stagetwo/tests.py) for testimg script
+To test the application, run this command in your terminal:
+
+```bash
+    python manage.py test
+```
