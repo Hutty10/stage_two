@@ -42,4 +42,5 @@
 
 ## Documentation
 
+-for documentation check
 [GitHub](https://github.com/Hutty10/stage_two/blob/master/DOCUMENTATION.md)

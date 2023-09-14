@@ -28,7 +28,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 #### POST Request Format
 
 - **Postman and Search Engine Format:**
-  - URL: `sermmm`
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/`
   - Headers:
     - Content-Type: application/json
   - Body (JSON):
@@ -66,9 +66,9 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 #### GET Request Format
 
 - **Postman and Search Engine Format:**
-  - URL: `sermmm1` (where `1` is the person's ID)
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/1` (where `1` is the person's ID)
   OR
-  - URL: `sermmmhutty` (where `hutty` is the person's name)
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/hutty` (where `hutty` is the person's name)
 
 #### GET Response Format
 
@@ -97,7 +97,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 #### PUT Request Format
 
 - **Postman and Search Engine Format:**
-  - URL: `sermmm1` (where `1` is the person's ID)
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/1` (where `1` is the person's ID)
   - Headers:
     - Content-Type: application/json
   - Body (JSON):
@@ -137,7 +137,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 #### DELETE Request Format
 
 - **Postman and Search Engine Format:**
-  - URL: `sermmm1` (where `1` is the person's ID)
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/1` (where `1` is the person's ID)
 
 #### DELETE Response Format
 
@@ -152,7 +152,7 @@ Below are examples of how to use the API with different endpoints, including req
 
 ```json
 Request:
-POST sermmm
+POST https://hng-stage-two-fek8.onrender.com/api/
 Headers: Content-Type: application/json
 Body (JSON):
 {
@@ -170,7 +170,7 @@ Response (HTTP 201 Created):
 
 ```json
 Request:
-GET sermmm1
+GET https://hng-stage-two-fek8.onrender.com/api/1
 
 Response (HTTP 200 OK):
 {
@@ -183,7 +183,7 @@ Response (HTTP 200 OK):
 
 ```json
 Request:
-PUT sermmm1
+PUT https://hng-stage-two-fek8.onrender.com/api/1
 
 
 Headers: Content-Type: application/json
@@ -203,7 +203,7 @@ Response (HTTP 202 Accepted):
 
 ```json
 Request:
-DELETE sermmm1
+DELETE https://hng-stage-two-fek8.onrender.com/api/1
 
 Response (HTTP 204 No Content):
 No response body.
