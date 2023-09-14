@@ -221,7 +221,7 @@ No authentication or authorization mechanisms are implemented in this version of
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hutty10/stage_two
+   git clone https://github.com/Hutty10/stage_two.git
    ```
 
 2. Create a virtual environment and activate it:

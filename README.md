@@ -15,7 +15,7 @@
 1. Clone GitHub project
 
     ```bash
-    git clone https://gitjub.com/Hutty10/stage_two
+    git clone https://github.com/Hutty10/stage_two.git
     ```
 
 2. Install Requirements File:
@@ -39,3 +39,7 @@
 ## API Usage
 
 - Navigate to [127.0.0.1:8000/api](127.0.0.1:8000/api) in your browser, and you should see a user-friendly interface for making requests to the API
+
+## Documentation
+
+[GitHub](https://github.com/Hutty10/stage_two/blob/master/DOCUMENTATION.md)
